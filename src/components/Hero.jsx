@@ -21,7 +21,7 @@ function Hero() {
           className="text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Capacitacion de Excelencia
+            Capacitación de Excelencia
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-8">
             Encuentra el curso perfecto para tu desarrollo profesional
