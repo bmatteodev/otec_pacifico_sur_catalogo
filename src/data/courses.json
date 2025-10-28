@@ -1,0 +1,354 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Técnicas de RIGGER",
+      "category": "Sector Minero",
+      "duration": 40,
+      "modality": "Presencial",
+      "description": "Capacitación práctica sobre técnicas de izaje y señalización segura para el trabajo con cargas suspendidas en minería.",
+      "codigoSence": "1237856401",
+      "temarioUrl": "/temarios/rigger.pdf"
+    },
+    {
+      "id": 2,
+      "name": "HAZMAT - materiales peligrosos NFPA 472",
+      "category": "Sector Minero",
+      "duration": 24,
+      "modality": "Presencial",
+      "description": "Curso de identificación, manejo y respuesta ante emergencias con materiales peligrosos según norma NFPA 472.",
+      "codigoSence": "1237856402",
+      "temarioUrl": "/temarios/hazmat.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Primeros auxilios trauma, RCP-DEA",
+      "category": "Sector Minero",
+      "duration": 20,
+      "modality": "Presencial",
+      "description": "Formación en atención inicial de emergencias, reanimación cardiopulmonar y uso de desfibrilador externo automático.",
+      "codigoSence": "1237856403",
+      "temarioUrl": "/temarios/primeros-auxilios.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Técnicas operación de plataforma alza hombres, MAN-LIFT",
+      "category": "Sector Minero",
+      "duration": 30,
+      "modality": "Presencial",
+      "description": "Curso práctico sobre operación segura y mantenimiento básico de plataformas alza hombres.",
+      "codigoSence": "1237856404",
+      "temarioUrl": "/temarios/man-lift.pdf"
+    },
+    {
+      "id": 5,
+      "name": "Técnicas Aislación y bloqueo",
+      "category": "Sector Minero",
+      "duration": 16,
+      "modality": "E-learning sincrónico con relator",
+      "description": "Capacitación en procedimientos de aislación y bloqueo de energía para trabajos seguros.",
+      "codigoSence": "1237856405",
+      "temarioUrl": "/temarios/aislacion-bloqueo.pdf"
+    },
+    {
+      "id": 6,
+      "name": "Técnicas de Armado y desarme de andamios",
+      "category": "Sector Minero",
+      "duration": 24,
+      "modality": "Presencial",
+      "description": "Curso teórico-práctico sobre armado, uso y desarme seguro de andamios metálicos.",
+      "codigoSence": "1237856406",
+      "temarioUrl": "/temarios/andamios.pdf"
+    },
+    {
+      "id": 7,
+      "name": "Técnicas Uso y manejo de Extintores",
+      "category": "Sector Minero",
+      "duration": 8,
+      "modality": "Presencial",
+      "description": "Capacitación práctica en el uso correcto de extintores portátiles para control inicial de incendios.",
+      "codigoSence": "1237856407",
+      "temarioUrl": "/temarios/extintores.pdf"
+    },
+    {
+      "id": 8,
+      "name": "Trabajo en altura",
+      "category": "Sector Minero",
+      "duration": 16,
+      "modality": "Presencial",
+      "description": "Entrenamiento en prevención de caídas y uso seguro de equipos de protección personal en altura.",
+      "codigoSence": "1237856408",
+      "temarioUrl": "/temarios/trabajo-altura.pdf"
+    },
+    {
+      "id": 9,
+      "name": "Prevención de Riesgos laborales para la soldadura",
+      "category": "Sector Minero",
+      "duration": 12,
+      "modality": "E-learning asincrónico",
+      "description": "Formación en medidas preventivas para trabajos de soldadura en entornos mineros.",
+      "codigoSence": "1237856409",
+      "temarioUrl": "/temarios/riesgos-soldadura.pdf"
+    },
+    {
+      "id": 10,
+      "name": "Prevención de Riesgos laborales espacios confinados",
+      "category": "Sector Minero",
+      "duration": 16,
+      "modality": "Presencial",
+      "description": "Capacitación en identificación, evaluación y control de riesgos en espacios confinados.",
+      "codigoSence": "1237856410",
+      "temarioUrl": "/temarios/espacios-confinados.pdf"
+    },
+    {
+      "id": 11,
+      "name": "Técnicas de Prevención de Riesgos para Supervisión; metodología SIGO, RESSO, BOWTIE (CODELCO)",
+      "category": "Sector Minero",
+      "duration": 24,
+      "modality": "E-learning sincrónico con relator",
+      "description": "Capacitación especializada en metodologías de gestión de riesgos aplicadas en minería CODELCO.",
+      "codigoSence": "1237856411",
+      "temarioUrl": "/temarios/supervision-codelco.pdf"
+    },
+    {
+      "id": 12,
+      "name": "Proceso de Investigación método EVITA",
+      "category": "Sector Minero",
+      "duration": 12,
+      "modality": "E-learning asincrónico",
+      "description": "Formación en la metodología EVITA para la investigación de incidentes laborales.",
+      "codigoSence": "1237856412",
+      "temarioUrl": "/temarios/evita.pdf"
+    },
+    {
+      "id": 13,
+      "name": "Operación para trabajos en caliente o llama abierta",
+      "category": "Sector Minero",
+      "duration": 10,
+      "modality": "Presencial",
+      "description": "Curso preventivo sobre medidas de control y permisos de trabajo en caliente.",
+      "codigoSence": "1237856413",
+      "temarioUrl": "/temarios/trabajos-caliente.pdf"
+    },
+    {
+      "id": 14,
+      "name": "Técnicas Operación Camión grúa",
+      "category": "Sector Minero",
+      "duration": 32,
+      "modality": "Presencial",
+      "description": "Formación práctica para la operación segura de camiones grúa según normativas vigentes.",
+      "codigoSence": "1237856414",
+      "temarioUrl": "/temarios/camion-grua.pdf"
+    },
+    {
+      "id": 15,
+      "name": "Técnicas Operación Camión pluma",
+      "category": "Sector Minero",
+      "duration": 32,
+      "modality": "Presencial",
+      "description": "Entrenamiento práctico en operación y seguridad de camiones pluma en faenas mineras.",
+      "codigoSence": "1237856415",
+      "temarioUrl": "/temarios/camion-pluma.pdf"
+    },
+    {
+      "id": 16,
+      "name": "Técnicas Operación Grúa horquilla",
+      "category": "Sector Minero",
+      "duration": 40,
+      "modality": "Presencial",
+      "description": "Certificación en operación segura de grúas horquilla en entornos mineros e industriales.",
+      "codigoSence": "1237856416",
+      "temarioUrl": "/temarios/grua-horquilla.pdf"
+    },
+    {
+      "id": 17,
+      "name": "Técnicas Operación Grúa móvil",
+      "category": "Sector Minero",
+      "duration": 60,
+      "modality": "Presencial",
+      "description": "Curso avanzado en operación de grúas móviles y medidas de seguridad en minería.",
+      "codigoSence": "1237856417",
+      "temarioUrl": "/temarios/grua-movil.pdf"
+    },
+    {
+      "id": 18,
+      "name": "Técnicas Operación Puente grúa",
+      "category": "Sector Minero",
+      "duration": 24,
+      "modality": "Presencial",
+      "description": "Capacitación técnica para operación de puentes grúa en entornos industriales y mineros.",
+      "codigoSence": "1237856418",
+      "temarioUrl": "/temarios/puente-grua.pdf"
+    },
+    {
+      "id": 19,
+      "name": "Técnicas para Operación de Grúa Horquilla y Apilador eléctrico",
+      "category": "Sector Minero",
+      "duration": 36,
+      "modality": "Presencial",
+      "description": "Curso combinado en operación de grúa horquilla y apilador eléctrico para minería.",
+      "codigoSence": "1237856419",
+      "temarioUrl": "/temarios/apilador-electrico.pdf"
+    },
+    {
+      "id": 20,
+      "name": "Operación Segura Mini cargador",
+      "category": "Sector Minero",
+      "duration": 30,
+      "modality": "Presencial",
+      "description": "Curso de operación segura de minicargadores en faenas mineras.",
+      "codigoSence": "1237856420",
+      "temarioUrl": "/temarios/mini-cargador.pdf"
+    },
+    {
+      "id": 21,
+      "name": "Ley Karin",
+      "category": "Sector Minero",
+      "duration": 8,
+      "modality": "E-learning asincrónico",
+      "description": "Capacitación sobre la Ley Karin y su impacto en la prevención del acoso laboral y sexual.",
+      "codigoSence": "1237856421",
+      "temarioUrl": "/temarios/ley-karin.pdf"
+    },
+    {
+      "id": 22,
+      "name": "Bipartito",
+      "category": "Sector Minero",
+      "duration": 8,
+      "modality": "E-learning asincrónico",
+      "description": "Curso de fortalecimiento de la gestión participativa entre empleadores y trabajadores.",
+      "codigoSence": "1237856422",
+      "temarioUrl": "/temarios/bipartito.pdf"
+    },
+    {
+      "id": 23,
+      "name": "Riesgos Eléctricos (Básico)",
+      "category": "Sector Minero",
+      "duration": 12,
+      "modality": "Presencial",
+      "description": "Curso de fundamentos de seguridad eléctrica para trabajadores de minería.",
+      "codigoSence": "1237856423",
+      "temarioUrl": "/temarios/riesgos-electricos-basico.pdf"
+    },
+    {
+      "id": 24,
+      "name": "Conducción Segura en Alta Montaña",
+      "category": "Sector Minero",
+      "duration": 16,
+      "modality": "Presencial",
+      "description": "Entrenamiento para conducción segura en caminos de altura y condiciones extremas.",
+      "codigoSence": "1237856424",
+      "temarioUrl": "/temarios/alta-montana.pdf"
+    },
+    {
+      "id": 25,
+      "name": "Manejo a la Defensiva según Legislación Chilena",
+      "category": "Sector Minero",
+      "duration": 12,
+      "modality": "E-learning asincrónico",
+      "description": "Capacitación en técnicas de conducción defensiva según normativa chilena vigente.",
+      "codigoSence": "1237856425",
+      "temarioUrl": "/temarios/manejo-defensivo.pdf"
+    },
+    {
+      "id": 26,
+      "name": "Riesgos Eléctricos (Baja tensión)",
+      "category": "Sector Minero",
+      "duration": 12,
+      "modality": "E-learning sincrónico con relator",
+      "description": "Capacitación en identificación y control de riesgos eléctricos en baja tensión.",
+      "codigoSence": "1237856426",
+      "temarioUrl": "/temarios/riesgos-baja-tension.pdf"
+    },
+    {
+      "id": 27,
+      "name": "DS N°44",
+      "category": "Sector Minero",
+      "duration": 8,
+      "modality": "E-learning asincrónico",
+      "description": "Curso sobre el Decreto Supremo N°44 y sus implicancias en seguridad minera.",
+      "codigoSence": "1237856427",
+      "temarioUrl": "/temarios/ds44.pdf"
+    },
+    {
+      "id": 28,
+      "name": "Técnicas de Prevención de Riesgos Línea de Supervisión (versión CODELCO)",
+      "category": "Sector Minero",
+      "duration": 20,
+      "modality": "E-learning sincrónico con relator",
+      "description": "Capacitación en prevención de riesgos y liderazgo en seguridad para supervisores CODELCO.",
+      "codigoSence": "1237856428",
+      "temarioUrl": "/temarios/linea-supervision.pdf"
+    },
+    {
+      "id": 29,
+      "name": "Riesgos Eléctricos (versión CODELCO)",
+      "category": "Sector Minero",
+      "duration": 16,
+      "modality": "E-learning sincrónico con relator",
+      "description": "Curso adaptado a los estándares eléctricos de CODELCO.",
+      "codigoSence": "1237856429",
+      "temarioUrl": "/temarios/riesgos-codelco.pdf"
+    },
+    {
+      "id": 30,
+      "name": "Liderazgo Transformacional",
+      "category": "Sector Minero",
+      "duration": 24,
+      "modality": "E-learning asincrónico",
+      "description": "Desarrollo de liderazgo enfocado en la transformación cultural y la seguridad en minería.",
+      "codigoSence": "1237856430",
+      "temarioUrl": "/temarios/liderazgo-transformacional.pdf"
+    },
+    {
+      "id": 31,
+      "name": "Riesgos Eléctricos (EC CODELCO)",
+      "category": "Sector Minero",
+      "duration": 20,
+      "modality": "Presencial",
+      "description": "Capacitación en estándares eléctricos específicos del Estándar Corporativo CODELCO.",
+      "codigoSence": "1237856431",
+      "temarioUrl": "/temarios/riesgos-ec-codelco.pdf"
+    },
+    {
+      "id": 32,
+      "name": "Operación Segura Grúa Portal",
+      "category": "Sector Minero",
+      "duration": 36,
+      "modality": "Presencial",
+      "description": "Entrenamiento en operación segura y mantenimiento de grúas portales.",
+      "codigoSence": "1237856432",
+      "temarioUrl": "/temarios/grua-portal.pdf"
+    },
+    {
+      "id": 33,
+      "name": "Uso y Manejo Seguro de Tecles Manuales y Eléctricos",
+      "category": "Sector Minero",
+      "duration": 10,
+      "modality": "Presencial",
+      "description": "Formación en uso seguro y mantenimiento de tecles manuales y eléctricos.",
+      "codigoSence": "1237856433",
+      "temarioUrl": "/temarios/tecles.pdf"
+    },
+    {
+      "id": 34,
+      "name": "Gestión de Riesgos TMERT",
+      "category": "Sector Minero",
+      "duration": 16,
+      "modality": "E-learning asincrónico",
+      "description": "Curso de gestión de riesgos en tareas de mantenimiento, equipos, recursos y tiempo.",
+      "codigoSence": "1237856434",
+      "temarioUrl": "/temarios/tmert.pdf"
+    },
+    {
+      "id": 35,
+      "name": "Norma Eléctrica Inst. Baja Tensión",
+      "category": "Sector Industrial",
+      "duration": 20,
+      "modality": "E-learning asincrónico",
+      "description": "Formación en normas eléctricas y buenas prácticas de instalación en baja tensión.",
+      "codigoSence": "1237856501",
+      "temarioUrl": "/temarios/norma-baja-tension.pdf"
+    }
+  ]
+}

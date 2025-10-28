@@ -1,0 +1,78 @@
+import { motion } from 'framer-motion';
+import { Award, Users, Clock, BadgeCheck, Shield } from 'lucide-react';
+
+function Hero() {
+  return (
+    <section className="bg-gradient-to-r from-primary to-primary-light text-white py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center"
+        >
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Capacitacion de Excelencia
+          </h1>
+          <p className="text-xl md:text-2xl text-blue-100 mb-8">
+            Encuentra el curso perfecto para tu desarrollo profesional
+          </p>
+        </motion.div>
+
+        {/* Estadisticas */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12"
+        >
+          <div className="text-center">
+            <Award className="w-12 h-12 mx-auto mb-3 text-secondary" />
+            <h3 className="text-2xl font-bold">+500</h3>
+            <p className="text-blue-100">Alumnos Capacitados</p>
+          </div>
+          <div className="text-center">
+            <Users className="w-12 h-12 mx-auto mb-3 text-secondary" />
+            <h3 className="text-2xl font-bold">+50</h3>
+            <p className="text-blue-100">Cursos Disponibles</p>
+          </div>
+          <div className="text-center">
+            <Clock className="w-12 h-12 mx-auto mb-3 text-secondary" />
+            <h3 className="text-2xl font-bold">+10 Años</h3>
+            <p className="text-blue-100">De Experiencia</p>
+          </div>
+        </motion.div>
+
+        {/* Certificaciones */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-12 bg-white/10 backdrop-blur-sm rounded-lg p-6"
+        >
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
+            <div className="flex items-center space-x-3">
+              <BadgeCheck className="w-10 h-10 text-secondary flex-shrink-0" />
+              <div>
+                <p className="font-semibold text-lg">Certificados NCh 2728</p>
+                <p className="text-sm text-blue-100">por CERTHIA</p>
+              </div>
+            </div>
+            
+            <div className="hidden md:block w-px h-12 bg-white/30"></div>
+            
+            <div className="flex items-center space-x-3">
+              <Shield className="w-10 h-10 text-secondary flex-shrink-0" />
+              <div>
+                <p className="font-semibold text-lg">Acreditados</p>
+                <p className="text-sm text-blue-100">por SENCE</p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+
+export default Hero;
