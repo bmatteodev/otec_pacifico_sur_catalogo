@@ -3,8 +3,17 @@ import { Award, Users, Clock, BadgeCheck, Shield } from 'lucide-react';
 
 function Hero() {
   return (
-    <section className="bg-gradient-to-r from-primary to-primary-light text-white py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-r from-primary to-primary-light text-white py-16 relative overflow-hidden">
+      {/* Logo de fondo translúcido */}
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-10 pointer-events-none">
+        <img 
+          src="/logo.png" 
+          alt="" 
+          className="w-96 h-96 object-contain"
+        />
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,7 +47,7 @@ function Hero() {
           </div>
           <div className="text-center">
             <Clock className="w-12 h-12 mx-auto mb-3 text-secondary" />
-            <h3 className="text-2xl font-bold">+10 Años</h3>
+            <h3 className="text-2xl font-bold">+10 A&ntilde;os</h3>
             <p className="text-blue-100">De Experiencia</p>
           </div>
         </motion.div>

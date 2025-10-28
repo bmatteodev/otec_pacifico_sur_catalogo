@@ -1,5 +1,3 @@
-import { GraduationCap } from 'lucide-react';
-
 function Header() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -7,15 +5,18 @@ function Header() {
         <div className="flex items-center justify-center md:justify-start h-20">
           {/* Logo y nombre */}
           <div className="flex items-center space-x-3">
-            <div className="bg-gradient-to-r from-primary to-secondary p-2 rounded-lg">
-              <GraduationCap className="w-8 h-8 text-white" />
-            </div>
+            {/* Reemplaza el icono con tu logo */}
+            <img 
+              src="/logo.png" 
+              alt="OTEC Pacifico Sur Logo" 
+              className="h-14 w-14 object-contain"
+            />
             <div>
               <h1 className="text-2xl font-bold text-primary">
-                OTEC Pacífico Sur
+                OTEC Pacifico Sur
               </h1>
               <p className="text-sm text-gray-600">
-                Centro de Capacitación
+                Centro de Capacitacion
               </p>
             </div>
           </div>

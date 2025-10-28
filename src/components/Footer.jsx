@@ -4,8 +4,16 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="bg-gray-900 text-gray-300 relative overflow-hidden">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
+        <img 
+          src="/logo.png" 
+          alt="" 
+          className="w-96 h-96 object-contain"
+        />
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           <div>
@@ -63,7 +71,7 @@ function Footer() {
               </a>
               
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/otecpacificosur/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-secondary p-3 rounded-full transition-colors"
@@ -73,7 +81,7 @@ function Footer() {
               </a>
               
               <a
-                href="https://linkedin.com"
+                href="https://cl.linkedin.com/in/otec-pac%C3%ADfico-sur-chile-650317315?trk=public_post_feed-actor-name"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-primary p-3 rounded-full transition-colors"
