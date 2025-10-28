@@ -2,6 +2,8 @@
 
 Sitio web del catálogo de cursos para OTEC Pacífico Sur, un centro de capacitación profesional certificado bajo la NCh 2728 por CERTHIA y acreditado por SENCE.
 
+🌐 **[Ver sitio en vivo](https://otec-pacifico-sur-catalogo-ffhnq3zk3-bastian-matteos-projects.vercel.app)**
+
 ![OTEC Pacífico Sur](https://img.shields.io/badge/OTEC-Pac%C3%ADfico%20Sur-blue)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?logo=tailwind-css)
