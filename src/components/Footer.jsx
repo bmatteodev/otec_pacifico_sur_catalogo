@@ -5,11 +5,11 @@ function Footer() {
 
   return (
     <footer className="bg-gray-900 text-gray-300 relative overflow-hidden">
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
+      <div className="absolute left-1/2 md:left-auto md:right-0 -translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
         <img 
           src="/logo.png" 
           alt="" 
-          className="w-96 h-96 object-contain"
+          className="w-64 h-64 md:w-96 md:h-96 object-contain"
         />
       </div>
 
@@ -60,15 +60,7 @@ function Footer() {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">Siguenos</h3>
             <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gray-800 hover:bg-primary p-3 rounded-full transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
+            
               
               <a
                 href="https://www.instagram.com/otecpacificosur/"
@@ -81,7 +73,7 @@ function Footer() {
               </a>
               
               <a
-                href="https://cl.linkedin.com/in/otec-pac%C3%ADfico-sur-chile-650317315?trk=public_post_feed-actor-name"
+                href="https://cl.linkedin.com/in/otec-pacífico-sur-chile-650317315?trk=public_post_feed-actor-name"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-primary p-3 rounded-full transition-colors"

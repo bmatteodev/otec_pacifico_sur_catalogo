@@ -8,50 +8,46 @@ function CourseCard({ course, onClick }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
       whileHover={{ y: -8, transition: { duration: 0.2 } }}
-      className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden cursor-pointer flex flex-col"
+      className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer flex flex-col"
       onClick={onClick}
     >
-      {/* Header de la tarjeta con categoría */}
       <div className="bg-gradient-to-r from-primary to-primary-light p-4">
-        <span className="inline-block bg-white text-primary text-xs font-semibold px-3 py-1 rounded-full">
+        <span className="inline-block bg-white dark:bg-gray-900 text-primary dark:text-blue-400 text-xs font-semibold px-3 py-1 rounded-full">
           {course.category}
         </span>
       </div>
 
-      {/* Contenido - flex-grow hace que ocupe el espacio disponible */}
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-gray-800 mb-3 line-clamp-2">
+        <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 line-clamp-2">
           {course.name}
         </h3>
         
-        <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+        <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
           {course.description}
         </p>
 
-        {/* Información del curso */}
         <div className="space-y-2 mb-4">
-          <div className="flex items-center text-sm text-gray-600">
+          <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
             <Clock className="w-4 h-4 mr-2 text-secondary" />
             <span>{course.duration} horas</span>
           </div>
           
-          <div className="flex items-center text-sm text-gray-600">
+          <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
             <BookOpen className="w-4 h-4 mr-2 text-secondary" />
             <span>{course.modality}</span>
           </div>
           
           {course.codigoSence && (
-            <div className="flex items-center text-sm text-gray-600">
+            <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
               <Award className="w-4 h-4 mr-2 text-secondary" />
-              <span>Código SENCE: {course.codigoSence}</span>
+              <span>Codigo SENCE: {course.codigoSence}</span>
             </div>
           )}
         </div>
 
-        {/* Botón ver más - mt-auto lo empuja al final */}
         <button className="w-full bg-secondary hover:bg-secondary-light text-white font-semibold py-3 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 mt-auto">
           <Eye className="w-5 h-5" />
-          <span>Ver más detalles</span>
+          <span>Ver mas detalles</span>
         </button>
       </div>
     </motion.div>

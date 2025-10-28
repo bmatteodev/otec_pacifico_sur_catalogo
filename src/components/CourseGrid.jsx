@@ -4,11 +4,11 @@ function CourseGrid({ courses, onCourseClick }) {
   if (courses.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="text-gray-600 text-lg">
+        <p className="text-gray-600 dark:text-gray-400 text-lg">
           No se encontraron cursos con los filtros seleccionados.
         </p>
-        <p className="text-gray-500 text-sm mt-2">
-          Intenta ajustar tus criterios de búsqueda.
+        <p className="text-gray-500 dark:text-gray-500 text-sm mt-2">
+          Intenta ajustar tus criterios de busqueda.
         </p>
       </div>
     );

@@ -5,11 +5,11 @@ function Hero() {
   return (
     <section className="bg-gradient-to-r from-primary to-primary-light text-white py-16 relative overflow-hidden">
       {/* Logo de fondo translúcido */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-10 pointer-events-none">
+      <div className="absolute left-1/2 md:left-0 -translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 opacity-10 pointer-events-none">
         <img 
           src="/logo.png" 
           alt="" 
-          className="w-96 h-96 object-contain"
+          className="w-64 h-64 md:w-96 md:h-96 object-contain"
         />
       </div>
 

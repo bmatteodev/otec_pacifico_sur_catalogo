@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import { useTheme } from './hooks/useTheme';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Filters from './components/Filters';
@@ -10,28 +11,23 @@ import coursesData from './data/courses.json';
 import { normalizeText } from './utils/searchUtils';
 
 function App() {
+  const { theme, toggleTheme } = useTheme();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Todas');
   const [selectedModality, setSelectedModality] = useState('Todas');
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Filtrar cursos con búsqueda mejorada
   const filteredCourses = useMemo(() => {
     return coursesData.courses.filter((course) => {
-      // Normalizar el término de búsqueda
       const normalizedSearch = normalizeText(searchTerm);
-      
-      // Normalizar los campos del curso
       const normalizedName = normalizeText(course.name);
       const normalizedDescription = normalizeText(course.description);
       
-      // Buscar sin distinción de mayúsculas ni acentos
       const matchesSearch = normalizedName.includes(normalizedSearch) ||
                            normalizedDescription.includes(normalizedSearch);
       
       const matchesCategory = selectedCategory === 'Todas' || course.category === selectedCategory;
-      
       const matchesModality = selectedModality === 'Todas' || course.modality === selectedModality;
 
       return matchesSearch && matchesCategory && matchesModality;
@@ -49,13 +45,13 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <Header />
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col transition-colors">
+      <Header theme={theme} toggleTheme={toggleTheme} />
       <Hero />
       
       <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
-          Catálogo de Cursos
+        <h2 className="text-3xl font-bold text-gray-800 dark:text-white text-center mb-8">
+          Catalogo de Cursos
         </h2>
         
         <Filters

@@ -13,7 +13,6 @@ function CourseModal({ course, isOpen, onClose }) {
   };
 
   const handleDownloadTemario = () => {
-    // Aquí se descargará el PDF del temario
     window.open(course.temarioUrl, '_blank');
   };
 
@@ -21,7 +20,6 @@ function CourseModal({ course, isOpen, onClose }) {
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Overlay */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -30,7 +28,6 @@ function CourseModal({ course, isOpen, onClose }) {
             className="fixed inset-0 bg-black bg-opacity-50 z-40"
           />
 
-          {/* Modal */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -38,8 +35,7 @@ function CourseModal({ course, isOpen, onClose }) {
             transition={{ duration: 0.2 }}
             className="fixed inset-0 z-50 flex items-center justify-center p-4"
           >
-            <div className="bg-white rounded-lg shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-              {/* Header del Modal */}
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
               <div className="bg-gradient-to-r from-primary to-primary-light p-6 relative">
                 <button
                   onClick={onClose}
@@ -48,7 +44,7 @@ function CourseModal({ course, isOpen, onClose }) {
                   <X className="w-6 h-6" />
                 </button>
                 
-                <span className="inline-block bg-white text-primary text-sm font-semibold px-4 py-1 rounded-full mb-3">
+                <span className="inline-block bg-white dark:bg-gray-900 text-primary dark:text-blue-400 text-sm font-semibold px-4 py-1 rounded-full mb-3">
                   {course.category}
                 </span>
                 
@@ -57,48 +53,44 @@ function CourseModal({ course, isOpen, onClose }) {
                 </h2>
               </div>
 
-              {/* Contenido del Modal */}
               <div className="p-6">
-                {/* Información principal */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                  <div className="flex items-center space-x-3 bg-gray-50 p-4 rounded-lg">
+                  <div className="flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                     <Clock className="w-6 h-6 text-secondary flex-shrink-0" />
                     <div>
-                      <p className="text-xs text-gray-600">Duración</p>
-                      <p className="font-semibold text-gray-800">{course.duration} horas</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">Duracion</p>
+                      <p className="font-semibold text-gray-800 dark:text-white">{course.duration} horas</p>
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-3 bg-gray-50 p-4 rounded-lg">
+                  <div className="flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                     <BookOpen className="w-6 h-6 text-secondary flex-shrink-0" />
                     <div>
-                      <p className="text-xs text-gray-600">Modalidad</p>
-                      <p className="font-semibold text-gray-800 text-sm">{course.modality}</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400">Modalidad</p>
+                      <p className="font-semibold text-gray-800 dark:text-white text-sm">{course.modality}</p>
                     </div>
                   </div>
 
                   {course.codigoSence && (
-                    <div className="flex items-center space-x-3 bg-gray-50 p-4 rounded-lg">
+                    <div className="flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                       <Award className="w-6 h-6 text-secondary flex-shrink-0" />
                       <div>
-                        <p className="text-xs text-gray-600">Código SENCE</p>
-                        <p className="font-semibold text-gray-800">{course.codigoSence}</p>
+                        <p className="text-xs text-gray-600 dark:text-gray-400">Codigo SENCE</p>
+                        <p className="font-semibold text-gray-800 dark:text-white">{course.codigoSence}</p>
                       </div>
                     </div>
                   )}
                 </div>
 
-                {/* Descripción */}
                 <div className="mb-6">
-                  <h3 className="text-lg font-bold text-gray-800 mb-2">
-                    Descripción del curso
+                  <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-2">
+                    Descripcion del curso
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                     {course.description}
                   </p>
                 </div>
 
-                {/* Botones de acción */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <button
                     onClick={handleDownloadTemario}
