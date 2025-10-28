@@ -18,7 +18,7 @@ function Header({ theme, toggleTheme }) {
                 OTEC Pacifico Sur
               </h1>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Centro de Capacitacion
+                Centro de Capacitación
               </p>
             </div>
           </div>
