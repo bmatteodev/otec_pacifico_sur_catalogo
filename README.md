@@ -199,7 +199,7 @@ npm run deploy
 **OTEC Pacífico Sur**
 - Teléfono: +56 9 7513 5223
 - Email: contacto@otecpacificosur.cl
-- Ubicación: Quintero, Valparaíso, Chile
+- Ubicación: Quilpué, Valparaíso, Chile
 
 ## 📄 Certificaciones
 
