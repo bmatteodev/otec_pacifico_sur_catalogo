@@ -1,11 +1,11 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Linkedin } from 'lucide-react';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300 relative overflow-hidden">
-      <div className="absolute left-1/2 md:left-auto md:right-0 -translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
+    <footer className="bg-gray-900 dark:bg-black text-gray-300 dark:text-gray-400 relative overflow-hidden transition-colors">
+      <div className="absolute left-1/2 md:left-auto md:right-0 -translate-x-1/2 md:translate-x-0 top-1/2 -translate-y-1/2 opacity-5 dark:opacity-10 pointer-events-none">
         <img 
           src="/logo.png" 
           alt="" 
@@ -41,7 +41,7 @@ function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
                 <div>
-                  <p className="text-sm">Quilpué, Valparaiso</p>
+                  <p className="text-sm">Quilpue, Valparaiso</p>
                   <p className="text-sm">Region de Valparaiso, Chile</p>
                 </div>
               </div>
@@ -60,13 +60,11 @@ function Footer() {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">Siguenos</h3>
             <div className="flex space-x-4">
-            
-              
               <a
                 href="https://www.instagram.com/otecpacificosur/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 hover:bg-secondary p-3 rounded-full transition-colors"
+                className="bg-gray-800 dark:bg-gray-700 hover:bg-secondary dark:hover:bg-secondary p-3 rounded-full transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -76,7 +74,7 @@ function Footer() {
                 href="https://cl.linkedin.com/in/otec-pacífico-sur-chile-650317315?trk=public_post_feed-actor-name"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-800 hover:bg-primary p-3 rounded-full transition-colors"
+                className="bg-gray-800 dark:bg-gray-700 hover:bg-primary dark:hover:bg-primary p-3 rounded-full transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
@@ -84,18 +82,18 @@ function Footer() {
             </div>
             
             <div className="mt-6">
-              <p className="text-xs text-gray-500">
+              <p className="text-xs text-gray-500 dark:text-gray-600">
                 Organismo Tecnico de Capacitacion
               </p>
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-xs text-gray-500 dark:text-gray-600 mt-1">
                 Certificado por SENCE
               </p>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-sm text-gray-500">
+        <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8 text-center">
+          <p className="text-sm text-gray-500 dark:text-gray-600">
             &copy; {currentYear} OTEC Pacifico Sur. Todos los derechos reservados.
           </p>
         </div>
