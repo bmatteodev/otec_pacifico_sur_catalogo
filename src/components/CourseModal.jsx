@@ -13,7 +13,14 @@ function CourseModal({ course, isOpen, onClose }) {
   };
 
   const handleDownloadTemario = () => {
-    window.open(course.temarioUrl, '_blank');
+    // Crear un elemento <a> temporal para forzar la descarga
+    const link = document.createElement('a');
+    link.href = course.temarioUrl;
+    link.download = `${course.name}.pdf`;
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
