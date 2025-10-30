@@ -2,6 +2,8 @@ import { useState, useMemo } from 'react';
 import { useTheme } from './hooks/useTheme';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import PricingSection from './components/PricingSection';
+import DiscountBanner from './components/DiscountBanner';
 import Filters from './components/Filters';
 import CourseGrid from './components/CourseGrid';
 import CourseModal from './components/CourseModal';
@@ -48,11 +50,14 @@ function App() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col transition-colors">
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Hero />
+      <PricingSection />
       
       <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white text-center mb-8">
           Catalogo de Cursos
         </h2>
+        
+        <DiscountBanner />
         
         <Filters
           searchTerm={searchTerm}

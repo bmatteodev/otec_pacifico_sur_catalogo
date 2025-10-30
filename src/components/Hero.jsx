@@ -21,7 +21,7 @@ function Hero() {
           className="text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Capacitación de Excelencia
+            CATÁLOGO DE CURSOS
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-8">
             Encuentra el curso perfecto para tu desarrollo profesional
@@ -37,13 +37,13 @@ function Hero() {
         >
           <div className="text-center">
             <Award className="w-12 h-12 mx-auto mb-3 text-secondary" />
-            <h3 className="text-2xl font-bold">+500</h3>
+            <h3 className="text-2xl font-bold">+1000</h3>
             <p className="text-blue-100">Alumnos Capacitados</p>
           </div>
           <div className="text-center">
             <Users className="w-12 h-12 mx-auto mb-3 text-secondary" />
             <h3 className="text-2xl font-bold">+50</h3>
-            <p className="text-blue-100">Cursos Disponibles</p>
+            <p className="text-blue-100">Cursos Actualizados</p>
           </div>
           <div className="text-center">
             <Clock className="w-12 h-12 mx-auto mb-3 text-secondary" />
