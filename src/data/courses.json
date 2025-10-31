@@ -5,7 +5,7 @@
       "name": "Uso y Mantención de Elementos de Protección Personal",
       "category": "Sector Industrial",
       "duration": 4,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en el uso correcto y mantención de elementos de protección personal para garantizar la seguridad en el trabajo.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Uso y Mantención de Elementos de Protección Personal.pdf"
@@ -15,7 +15,7 @@
       "name": "Uso y Manejo Seguro de Tecles Manuales y Eléctricos",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación en técnicas de operación segura de tecles manuales y eléctricos, cumpliendo con normativas de seguridad.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Uso y Manejo Seguro de Tecles Manuales y Eléctricos.pdf"
@@ -25,7 +25,7 @@
       "name": "Uso y Manejo de Extintores",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso práctico sobre el uso correcto de extintores y técnicas de respuesta ante emergencias de incendio.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Uso y Manejo de Extintores.pdf"
@@ -35,7 +35,7 @@
       "name": "Trabajo en Altura Física",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico","Presencial", "Semi presencial", "E-learning sincrónico con relator"],
       "description": "Capacitación en procedimientos de seguridad para trabajo en altura física, incluyendo uso de arnés y líneas de vida.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Trabajo en Altura Física.pdf"
@@ -45,7 +45,7 @@
       "name": "Técnicas para Operaciones de Rigger",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico","Presencial", "Semi presencial", "E-learning sincrónico con relator"],
       "description": "Formación en técnicas de señalización y maniobras de izaje para operaciones con grúas y equipos de levante.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Técnicas para Operaciones de Rigger.pdf"
@@ -55,7 +55,7 @@
       "name": "Técnicas Operación Segura Grúa Móvil",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso de operación segura de grúas móviles, incluyendo inspecciones y procedimientos de trabajo.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Tecnicas Operación Segura Grúa Móvil.pdf"
@@ -65,7 +65,7 @@
       "name": "SIGO - Prevención de Riesgos para Línea de Supervisión",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en Sistema Integrado de Gestión Operacional para supervisores, enfocado en prevención de riesgos.",
       "codigoSence": "",
       "temarioUrl": "/temarios/SIGO - Prevención de Riesgos para Línea de Supervisión.pdf"
@@ -75,7 +75,7 @@
       "name": "Riesgos Eléctricos (General)",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación sobre identificación y control de riesgos eléctricos en ambientes laborales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Riesgos Eléctricos (General) .pdf"
@@ -85,7 +85,7 @@
       "name": "Responsabilidad Civil y Penal en el Trabajo (Área Minera)",
       "category": "Sector Minero",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso sobre aspectos legales de responsabilidad civil y penal aplicados al trabajo en minería.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Responsabilidad Cívil y Penal en el Trabajo (Área Minera).pdf"
@@ -95,7 +95,7 @@
       "name": "RC - 29 Caída a Cuerpos Líquidos",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Gestión del riesgo crítico de caída a cuerpos líquidos, prevención y procedimientos de emergencia.",
       "codigoSence": "",
       "temarioUrl": "/temarios/RC - 29  Caída a Cuerpos Líquidos.pdf"
@@ -105,7 +105,7 @@
       "name": "RC - 27 Interacción de Personas con Vehículos y Equipos",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Control de riesgos en la interacción entre personas, vehículos y equipos móviles en áreas de trabajo.",
       "codigoSence": "",
       "temarioUrl": "/temarios/RC - 27 Interacción de Personas con Vehículos y Equipos.pdf"
@@ -115,7 +115,7 @@
       "name": "RC - 22 Pérdida de Control Estructuras, Tránsito y Personas",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Gestión de riesgos críticos relacionados con pérdida de control de estructuras, tránsito y movimiento de personas.",
       "codigoSence": "",
       "temarioUrl": "/temarios/RC - 22 Pérdida Control Estructuras Tránsito y Personas.pdf"
@@ -125,7 +125,7 @@
       "name": "RC - 7 Gestión del Riesgo Crítico por Pérdida de Control del Manejo de Sustancias Químicas Peligrosas",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Control y prevención de riesgos en el manejo de sustancias químicas peligrosas.",
       "codigoSence": "",
       "temarioUrl": "/temarios/RC - 7 Gestión del Riesgo Crítico por Pérdida de Control del Manejo de Sustancias Químicas Peligrosas.pdf"
@@ -135,7 +135,7 @@
       "name": "RC - 6 Gestión del Riesgo Crítico por Pérdida de Control de Variables del Fuego",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Prevención y control de incendios, gestión de variables críticas del fuego en entornos industriales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/RC - 6 Gestión del Riesgo Crítico por Pérdida de Control de Variables del Fuego.pdf"
@@ -145,7 +145,7 @@
       "name": "RC - 1 Gestión del Riesgo Crítico por Interacción con Energía Eléctrica",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Gestión de riesgos críticos en trabajos con energía eléctrica, prevención de electrocución.",
       "codigoSence": "",
       "temarioUrl": "/temarios/RC - 1 Gestión del Riesgo Crítico por Interacción con Energía Eléctrica.pdf"
@@ -155,7 +155,7 @@
       "name": "Prevención de Riesgos para Trabajos con Soldadura",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en medidas de seguridad y prevención de riesgos en trabajos de soldadura.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Prevención de Riesgos para Trabajos con Soldadura.pdf"
@@ -165,7 +165,7 @@
       "name": "Prevención de Riesgos Laborales para Trabajadores",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación general en prevención de riesgos laborales y cultura de seguridad en el trabajo.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Prevención de Riesgos Laborales para Trabajadores.pdf"
@@ -175,7 +175,7 @@
       "name": "Prevención de Riesgos en Espacios Confinados (General)",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Procedimientos de seguridad para trabajo en espacios confinados, detección de atmósferas peligrosas.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Prevención de Riesgos en Espacios Confinados (General).pdf"
@@ -185,7 +185,7 @@
       "name": "Operación Segura Retroexcavadora",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso de operación segura de retroexcavadoras, incluyendo mantenimiento e inspecciones.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Retroexcavadora.pdf"
@@ -195,7 +195,7 @@
       "name": "Operación Segura Puente Grúa",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación en operación segura de puentes grúa y sistemas de izaje industrial.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Puente Grúa.pdf"
@@ -205,7 +205,7 @@
       "name": "Operación Segura para Trabajos en Caliente o Llama Abierta",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Procedimientos de seguridad para trabajos en caliente, permisos y medidas de prevención de incendios.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura para Trabajos en Caliente o Llama Abierta.pdf"
@@ -215,7 +215,7 @@
       "name": "Operación Segura Mini Cargador",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en operación segura de mini cargadores, maniobras y prevención de riesgos.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Mini Cargador.pdf"
@@ -225,7 +225,7 @@
       "name": "Operación Segura Grúa Portal",
       "category": "Sector Industrial",
       "duration": 6,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso de operación de grúas portal, técnicas de izaje y procedimientos de seguridad.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Grúa Portal.pdf"
@@ -235,7 +235,7 @@
       "name": "Operación Segura Grúa Pedestal",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación en operación segura de grúas pedestal y sistemas de control.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Grúa pedestal.pdf"
@@ -245,7 +245,7 @@
       "name": "Operación Segura Grúa Monorriel",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en operación de grúas monorriel, inspecciones y prevención de accidentes.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Grúa Monorriel.pdf"
@@ -255,7 +255,7 @@
       "name": "Operación Segura Grúa Horquilla",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso práctico para certificación en operación segura de grúas horquilla en entornos industriales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Grúa Horquilla.pdf"
@@ -265,7 +265,7 @@
       "name": "Operación Segura Excavadora",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación en operación segura de excavadoras, mantenimiento preventivo y normas de seguridad.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Excavadora.pdf"
@@ -275,7 +275,7 @@
       "name": "Operación Segura Camión Pluma",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en operación de camiones pluma, técnicas de posicionamiento y seguridad operacional.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Camión Pluma.pdf"
@@ -285,7 +285,7 @@
       "name": "Operación Segura Alzahombres o Man Lift",
       "category": "Sector Industrial",
       "duration": 6,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso de operación segura de plataformas elevadoras y alzahombres.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Alza hombres o Man Lift.pdf"
@@ -295,7 +295,7 @@
       "name": "Operación Segura Alta Montaña 4x4",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación en conducción segura de vehículos 4x4 en condiciones de alta montaña.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Operación Segura Alta Montaña 4x4.pdf"
@@ -305,7 +305,7 @@
       "name": "Normativa Eléctrica CODELCO División Andina",
       "category": "Sector Minero",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación específica en normativa eléctrica aplicada en operaciones de CODELCO División Andina.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Normativa Eléctrica CODELCO DIVISIÓN ANDINAS.pdf"
@@ -315,7 +315,7 @@
       "name": "Metodología de la Investigación ICAM",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación en metodología ICAM para investigación de incidentes y accidentes laborales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Metodología de la Investigación ICAM.pdf"
@@ -325,7 +325,7 @@
       "name": "Manejo a la Defensiva según Legislación Chilena",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Curso de conducción defensiva conforme a la legislación chilena y estándares de seguridad vial.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Manejo a la Defensiva según Legislación Chilena.pdf"
@@ -335,7 +335,7 @@
       "name": "Liderazgo Transformacional (Supervisores y Jefatura)",
       "category": "Sector Industrial",
       "duration": 40,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Desarrollo de habilidades de liderazgo transformacional para supervisores y jefaturas.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Liderazgo Transformacional (Supervisores y Jefatura).pdf"
@@ -345,7 +345,7 @@
       "name": "Investigación de Incidentes Método EVITA",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en metodología EVITA para investigación y análisis de incidentes laborales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Investigación de Incidentes Método EVITA.pdf"
@@ -355,7 +355,7 @@
       "name": "Hazmat NFPA Sustancias Peligrosas Nivel Advertencia",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación nivel advertencia en respuesta a emergencias con sustancias peligrosas según NFPA.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Hazmat NFPA Sustencias Peligrosas NIvel Advertencia.pdf"
@@ -365,7 +365,7 @@
       "name": "Gestión de Riesgos TMERT - Trabajadores y Supervisores",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Gestión de trastornos musculoesqueléticos relacionados al trabajo para trabajadores y supervisores.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Gestión de Riesgos TMERT - Trabajadores y Supervisores.pdf"
@@ -375,7 +375,7 @@
       "name": "Gestión de Riesgos TMERT - Profesionales de la Seguridad y Salud",
       "category": "Sector Industrial",
       "duration": 20,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Programa avanzado de gestión de TMERT dirigido a profesionales de seguridad y salud ocupacional.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Gestión de Riesgos TMERT - Profesionales de la Seguridad y Salud .pdf"
@@ -385,7 +385,7 @@
       "name": "Gestión de Riesgos TMERT - Jefatura",
       "category": "Sector Industrial",
       "duration": 16,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación para jefaturas en gestión de trastornos musculoesqueléticos y prevención.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Gestión de Riesgos TMERT - Jefatura.pdf"
@@ -395,7 +395,7 @@
       "name": "Formación para Integrantes de Comités Paritarios",
       "category": "Sector Industrial",
       "duration": 20,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Formación integral para miembros de comités paritarios de higiene y seguridad.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Formación para Integrantes de Comités Paritarios.pdf"
@@ -405,7 +405,7 @@
       "name": "Formación para Equipos de Primera Respuesta",
       "category": "Sector Industrial",
       "duration": 16,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación para brigadas de emergencia y equipos de primera respuesta ante incidentes.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Formación para Equipos de Primera Respuesta.pdf"
@@ -415,7 +415,7 @@
       "name": "Formación para Encargados de Seguridad",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Programa de formación para encargados de seguridad en áreas operacionales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Formación para Encargados de Seguridad.pdf"
@@ -425,7 +425,7 @@
       "name": "Formación para Delegados de Seguridad",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación para delegados de seguridad en sus funciones y responsabilidades.",
       "codigoSence": "",
       "temarioUrl": "/temarios/Formación para Delegados de Seguridad.pdf"
@@ -435,7 +435,7 @@
       "name": "ECF 12 - Incendio",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades enfocado en prevención y control de incendios.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 12 -  Incendio.pdf"
@@ -445,7 +445,7 @@
       "name": "ECF 11 - Control del Terreno",
       "category": "Sector Minero",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para gestión y control del terreno en operaciones mineras.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 11 - Control del Terreno.pdf"
@@ -455,7 +455,7 @@
       "name": "ECF 10 - Explosivos y Tronaduras",
       "category": "Sector Minero",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades en manejo de explosivos y operaciones de tronadura.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 10 -  Explosivos y Tronaduras.pdf"
@@ -465,7 +465,7 @@
       "name": "ECF 9 - Manejo de Sustancias Peligrosas",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para manejo seguro de sustancias peligrosas.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 9 -  Manejo de Sustancias Peligrosas.pdf"
@@ -475,7 +475,7 @@
       "name": "ECF 8 - Guardas y Protecciones de Equipos",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades sobre guardas y protecciones en equipos industriales.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 8 -  Guardas y Protecciones de Equipos.pdf"
@@ -485,7 +485,7 @@
       "name": "ECF 7 - Cargas Suspendidas e Izaje",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para operaciones con cargas suspendidas y trabajos de izaje.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 7 -  Cargas Suspendidas e Izaje.pdf"
@@ -495,7 +495,7 @@
       "name": "ECF 6 - Materiales Fundidos",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades en trabajos con materiales fundidos y altas temperaturas.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 6 -  Materiales Fundidos.pdf"
@@ -505,7 +505,7 @@
       "name": "ECF 5 - Equipos y Herramientas Portátiles y Manuales",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para uso seguro de equipos y herramientas portátiles.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 5 - Equipos y Herramientas Portatiles y Manuales.pdf"
@@ -515,7 +515,7 @@
       "name": "ECF 4 - Operación Segura de Vehículos Livianos",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para operación de vehículos livianos en faena.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 4 - Operación Segura de Vehículos Livianos.pdf"
@@ -525,7 +525,7 @@
       "name": "ECF 3 - Equipo Pesado",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades en operación y mantención de equipos pesados.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 3 -  Equipo Pesado .pdf"
@@ -535,7 +535,7 @@
       "name": "ECF 2 - Trabajo en Altura (Versión CODELCO)",
       "category": "Sector Minero",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para trabajo en altura según normativa CODELCO.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 2 - Trabajo en Altura, Versión CODELCO.pdf"
@@ -545,7 +545,7 @@
       "name": "ECF 1 - Aislamiento, Bloqueo y Permiso de Trabajo",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Estándar de Control de Fatalidades para procedimientos de aislamiento, bloqueo y permisos de trabajo.",
       "codigoSence": "",
       "temarioUrl": "/temarios/ECF 1 - Aislación, Bloqueo y Permiso de Trabajo.pdf"
@@ -555,7 +555,7 @@
       "name": "DS 44 (General)",
       "category": "Sector Industrial",
       "duration": 8,
-      "modality": "E-learning asincrónico",
+      "modalities": ["E-learning asincrónico"],
       "description": "Capacitación en Decreto Supremo 44 sobre reglamento de seguridad minera.",
       "codigoSence": "",
       "temarioUrl": "/temarios/DS 44 (General).pdf"
@@ -565,8 +565,8 @@
       "name": "Armado de Andamios",
       "category": "Sector Industrial",
       "duration": 6,
-      "modality": "E-learning asincrónico",
-      "description": "Capacitación en técnicas de armado seguro de andamios y estructuras de metal",
+      "modalities": ["E-learning asincrónico"],
+      "description": "Uso y Montaje seguro de Andamios",
       "codigoSence": "",
       "temarioUrl": "/temarios/Armado de Andamios.pdf"
     }

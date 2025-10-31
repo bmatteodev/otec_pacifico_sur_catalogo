@@ -13,7 +13,6 @@ function CourseModal({ course, isOpen, onClose }) {
   };
 
   const handleDownloadTemario = () => {
-    // Crear un elemento <a> temporal para forzar la descarga
     const link = document.createElement('a');
     link.href = course.temarioUrl;
     link.download = `${course.name}.pdf`;
@@ -22,6 +21,11 @@ function CourseModal({ course, isOpen, onClose }) {
     link.click();
     document.body.removeChild(link);
   };
+
+  // Manejar tanto modality (string) como modalities (array)
+  const modalitiesList = Array.isArray(course.modalities) 
+    ? course.modalities 
+    : [course.modality];
 
   return (
     <AnimatePresence>
@@ -70,16 +74,25 @@ function CourseModal({ course, isOpen, onClose }) {
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                    <BookOpen className="w-6 h-6 text-secondary flex-shrink-0" />
+                  <div className="flex items-start space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg md:col-span-2">
+                    <BookOpen className="w-6 h-6 text-secondary flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-xs text-gray-600 dark:text-gray-400">Modalidad</p>
-                      <p className="font-semibold text-gray-800 dark:text-white text-sm">{course.modality}</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">Modalidades disponibles</p>
+                      <div className="flex flex-wrap gap-2">
+                        {modalitiesList.map((modality, index) => (
+                          <span 
+                            key={index}
+                            className="bg-primary/10 dark:bg-primary/20 text-primary dark:text-blue-400 text-xs font-semibold px-3 py-1 rounded-full"
+                          >
+                            {modality}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   </div>
 
                   {course.codigoSence && (
-                    <div className="flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                    <div className="flex items-center space-x-3 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg md:col-span-3">
                       <Award className="w-6 h-6 text-secondary flex-shrink-0" />
                       <div>
                         <p className="text-xs text-gray-600 dark:text-gray-400">Codigo SENCE</p>

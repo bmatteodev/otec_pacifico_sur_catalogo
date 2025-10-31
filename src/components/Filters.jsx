@@ -2,7 +2,13 @@ import { Search } from 'lucide-react';
 
 function Filters({ searchTerm, setSearchTerm, selectedCategory, setSelectedCategory, selectedModality, setSelectedModality }) {
   const categories = ['Todas', 'Sector Industrial', 'Sector Minero'];
-  const modalities = ['Todas', 'Presencial', 'Semi presencial', 'E-learning asincronico', 'E-learning sincronico con relator'];
+  const modalities = [
+    'Todas', 
+    'E-learning asincrónico',
+    'E-learning sincrónico con relator',
+    'Semi presencial', 
+    'Presencial'
+  ];
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8 transition-colors">

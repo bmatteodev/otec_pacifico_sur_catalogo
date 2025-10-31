@@ -2,6 +2,11 @@ import { motion } from 'framer-motion';
 import { Clock, BookOpen, Award, Eye } from 'lucide-react';
 
 function CourseCard({ course, onClick }) {
+  // Manejar tanto modality (string) como modalities (array)
+  const modalitiesText = Array.isArray(course.modalities) 
+    ? course.modalities.join(' • ') 
+    : course.modality;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -28,18 +33,18 @@ function CourseCard({ course, onClick }) {
 
         <div className="space-y-2 mb-4">
           <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
-            <Clock className="w-4 h-4 mr-2 text-secondary" />
+            <Clock className="w-4 h-4 mr-2 text-secondary flex-shrink-0" />
             <span>{course.duration} horas</span>
           </div>
           
-          <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
-            <BookOpen className="w-4 h-4 mr-2 text-secondary" />
-            <span>{course.modality}</span>
+          <div className="flex items-start text-sm text-gray-600 dark:text-gray-400">
+            <BookOpen className="w-4 h-4 mr-2 text-secondary flex-shrink-0 mt-0.5" />
+            <span className="line-clamp-2">{modalitiesText}</span>
           </div>
           
           {course.codigoSence && (
             <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
-              <Award className="w-4 h-4 mr-2 text-secondary" />
+              <Award className="w-4 h-4 mr-2 text-secondary flex-shrink-0" />
               <span>Codigo SENCE: {course.codigoSence}</span>
             </div>
           )}

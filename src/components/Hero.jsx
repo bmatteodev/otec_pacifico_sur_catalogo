@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Award, Users, Clock, BadgeCheck, Shield } from 'lucide-react';
+import { Award, Users, Clock, BadgeCheck, Shield, GraduationCap } from 'lucide-react';
 
 function Hero() {
   return (
@@ -36,7 +36,7 @@ function Hero() {
           className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12"
         >
           <div className="text-center">
-            <Award className="w-12 h-12 mx-auto mb-3 text-secondary" />
+            <GraduationCap className="w-12 h-12 mx-auto mb-3 text-secondary" />
             <h3 className="text-2xl font-bold">+1000</h3>
             <p className="text-blue-100">Alumnos Capacitados</p>
           </div>
@@ -46,9 +46,9 @@ function Hero() {
             <p className="text-blue-100">Cursos Actualizados</p>
           </div>
           <div className="text-center">
-            <Clock className="w-12 h-12 mx-auto mb-3 text-secondary" />
-            <h3 className="text-2xl font-bold">+10 A&ntilde;os</h3>
-            <p className="text-blue-100">De Experiencia</p>
+            <Award className="w-12 h-12 mx-auto mb-3 text-secondary" />
+            <h3 className="text-2xl font-bold">Relatores altamente calificados</h3>
+            <p className="text-blue-100">por REUF</p>
           </div>
         </motion.div>
 

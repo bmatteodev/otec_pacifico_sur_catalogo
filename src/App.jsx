@@ -30,7 +30,12 @@ function App() {
                            normalizedDescription.includes(normalizedSearch);
       
       const matchesCategory = selectedCategory === 'Todas' || course.category === selectedCategory;
-      const matchesModality = selectedModality === 'Todas' || course.modality === selectedModality;
+      
+      // Modificado: verificar si alguna de las modalidades del curso coincide
+      const matchesModality = selectedModality === 'Todas' || 
+                             (Array.isArray(course.modalities) 
+                               ? course.modalities.includes(selectedModality)
+                               : course.modality === selectedModality); // Compatibilidad con formato antiguo
 
       return matchesSearch && matchesCategory && matchesModality;
     });
